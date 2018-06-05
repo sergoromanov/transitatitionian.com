@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <a href="#" onclick="document.querySelector('.main').style.display='block'">
+            Войти
+        </a>
+         
+          <a href="#" onclick="document.querySelector('.main2').style.display='block'">
+            Регистрация
+        </a>
+        <div class="main">
+            <h2>
+                Войти
+            </h2>
+            <p>
+                Имя пользователя
+            </p>
+            <input placeholder="Имя пользователя">
+             <p>
+                Пароль
+            </p>
+            <input placeholder="Пароль">
+            <br>
+            <button
+               onclick="document.querySelector('.main').style.display='none'">
+                Войти
+              
+            </button>
+        </div>
+        <div class="main2">
+            <h2>
+                Регистрация
+            </h2>
+            <p>
+                Имя пользователя
+            </p>
+            <input placeholder="Имя пользователя">
+             <p>
+                Пароль
+            </p>
+            <input placeholder="Пароль">
+            <br>
+            <button
+               onclick="document.querySelector('.main2').style.display='none'">
+                Регистрация
+              
+            </button>
+        </div>
+    </body>
+</html>

@@ -1,84 +1,42 @@
 .main {
-    
-    height:900px;
-    background:red;
-    margin-left:100px;
-    margin-right:100px;
-    padding-top:60px;
-    
-}
-.main-menu {
-    height:40px;
-    background:blue;
-    display:flex;
-    
-}
-.logo {
-    padding-top:-15px;
-    width:200px;
-    height:90px;
-    margin-top: -20px;
-    margin-right: 200px;
-}
-.menu {
-    width:200px;
-    background:orange;
-    margin-right: 2px;
+    width: 500px;
+    height: 360px;
+    border: 2px solid black;
     text-align: center;
-    
-}
-.head {
-    font-size:15px;
-    font-family: arial;
-    color:grey;
-   
-}
-.block {
-    width:650px;
-    height:470px;
-    background-image: url(47_background_ru_ru.png);
-    margin-top:60px;
-    margin-left:80px;
-    border-radius:30px;
-    background-size: 100% 100%
-}
-.coar {
-    width:260px;
-    height: 400px;
-    background:yellow;
-    margin-left: 50px;
-    margin-top:60px;
-   
-}
-.flex {
-    display: flex;
-}
-.head2 {
-    font-family:arial;
+    margin-left: auto;
+    margin-right: auto;
     font-size:20px;
-    color:darkred;
-    margin:0;
+    font-family: arial;  
+    display: none;
+    box-shadow: 0 0 10px;
 }
-.input {
-    width:150px;
-    height:20px;
-    margin-left: 10px;
-    margin-top: 5px;
+button {
+    background:green;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left:50px;
+    padding-right:50px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top:20px;
 }
-.map {
-    width:260px;
-    height:200px;
-    margin-top:10px;
-    border-radius:10px;
-    margin-bottom:20px;
+input {
+    height:30px;
+    border-radius: 5px;
 }
-.promo {
-    height:180px;
-    width:260px;
-    margin-top:10px;
-    border-radius: 10px;
+.main2 {
+    width: 500px;
+    height: 360px;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:20px;
+    font-family: arial;  
+    display: none;
+    box-shadow:0 0 10px;
 }
-.menu:hover {
-    transition: 0.1s;
-    background:darkred;
+a {
+    text-decoration: none;
+    text-shadow: 1px 1px 2px;
 }
