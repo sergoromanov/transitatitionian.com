@@ -1,0 +1,84 @@
+.main {
+    
+    height:900px;
+    background:red;
+    margin-left:100px;
+    margin-right:100px;
+    padding-top:60px;
+    
+}
+.main-menu {
+    height:40px;
+    background:blue;
+    display:flex;
+    
+}
+.logo {
+    padding-top:-15px;
+    width:200px;
+    height:90px;
+    margin-top: -20px;
+    margin-right: 200px;
+}
+.menu {
+    width:200px;
+    background:orange;
+    margin-right: 2px;
+    text-align: center;
+    
+}
+.head {
+    font-size:15px;
+    font-family: arial;
+    color:grey;
+   
+}
+.block {
+    width:650px;
+    height:470px;
+    background-image: url(47_background_ru_ru.png);
+    margin-top:60px;
+    margin-left:80px;
+    border-radius:30px;
+    background-size: 100% 100%
+}
+.coar {
+    width:260px;
+    height: 400px;
+    background:yellow;
+    margin-left: 50px;
+    margin-top:60px;
+   
+}
+.flex {
+    display: flex;
+}
+.head2 {
+    font-family:arial;
+    font-size:20px;
+    color:darkred;
+    margin:0;
+}
+.input {
+    width:150px;
+    height:20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.map {
+    width:260px;
+    height:200px;
+    margin-top:10px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+.promo {
+    height:180px;
+    width:260px;
+    margin-top:10px;
+    border-radius: 10px;
+}
+.menu:hover {
+    transition: 0.1s;
+    background:darkred;
+}
